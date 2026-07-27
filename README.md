@@ -1,4 +1,5 @@
 # All-Pakistan-cities-list
+
 ![npm version](https://img.shields.io/npm/v/all-pakistan-cities-list.svg)
 ![license](https://img.shields.io/badge/license-CC0--1.0-blue.svg)
 ![npm downloads](https://img.shields.io/npm/dm/all-pakistan-cities-list.svg)
@@ -67,41 +68,60 @@ ES Modules / TypeScript
 import { getAllCities, getCitiesByRegion, searchCities, raw } from 'all-pakistan-cities-list';
 
 ```
-```
 
-HTML dropdown
+
+
+ES Modules / TypeScript
+
+### HTML dropdown
+ 
 A ready-to-use `<select>` element with semantic `<optgroup>` sections is included at `data/cities.html` — drop it directly into any form.
-City counts by region
-Region	Cities
-Islamabad Capital Territory	1
-Punjab	104
-Sindh	56
-Khyber Pakhtunkhwa (incl. former FATA)	57
-Balochistan	32
-Azad Jammu & Kashmir	17
-Gilgit-Baltistan	12
-Total	279
-API Reference
-Function	Description	Returns
-`getAllCities()`	Flat list of every city in the dataset	`string[]`
-`getRegions()`	List of all region/province names	`string[]`
-`getCitiesByRegion(region)`	Cities within a given region (case-insensitive match)	`string[]`
-`searchCities(query)`	Case-insensitive substring search across all cities	`string[]`
-`raw`	The full underlying JSON data structure	`CitiesData`
-Data source & maintenance
+ 
+## City counts by region
+ 
+| Region                                  | Cities |
+|------------------------------------------|:------:|
+| Islamabad Capital Territory               | 1      |
+| Punjab                                    | 104    |
+| Sindh                                     | 56     |
+| Khyber Pakhtunkhwa (incl. former FATA)     | 57     |
+| Balochistan                                | 32     |
+| Azad Jammu & Kashmir                       | 17     |
+| Gilgit-Baltistan                           | 12     |
+| **Total**                                  | **279**|
+ 
+## API Reference
+ 
+| Function | Description | Returns |
+|---|---|---|
+| `getAllCities()` | Flat list of every city in the dataset | `string[]` |
+| `getRegions()` | List of all region/province names | `string[]` |
+| `getCitiesByRegion(region)` | Cities within a given region (case-insensitive match) | `string[]` |
+| `searchCities(query)` | Case-insensitive substring search across all cities | `string[]` |
+| `raw` | The full underlying JSON data structure | `CitiesData` |
+ 
+## Data source & maintenance
+ 
 This list is manually compiled and periodically corrected for spelling, duplicates, and administrative changes (e.g. former FATA districts merged into KPK in 2018). Contributions and corrections are welcome — see below.
-Contributing
+ 
+## Contributing
+ 
 Found a missing city, an incorrect spelling, or an outdated administrative boundary? Contributions are welcome:
-Fork the repository: speedytangent/all-Pakistan-cities-list
-Clone it: `git clone https://github.com/speedytangent/all-Pakistan-cities-list.git`
-Update `data/cities.json` (and `data/cities.html` if applicable)
-Open a pull request with a short description of the change
-License
-Released under CC0 1.0 — public domain. Use freely in personal, open-source, or commercial projects with no attribution required.
-Related
+ 
+1. Fork the repository: [speedytangent/all-Pakistan-cities-list](https://github.com/speedytangent/all-Pakistan-cities-list)
+2. Clone it: `git clone https://github.com/speedytangent/all-Pakistan-cities-list.git`
+3. Update `data/cities.json` (and `data/cities.html` if applicable)
+4. Open a pull request with a short description of the change
+## License
+ 
+Released under [CC0 1.0](./LICENSE) — public domain. Use freely in personal, open-source, or commercial projects with no attribution required.
+ 
+## Related
+ 
 If you're building a location picker, delivery app, or registration form for Pakistan, this package pairs well with:
-Postal code / zip code datasets
-Province/district boundary GeoJSON files
-Urdu-language city name transliterations (planned for a future release — contributions welcome)
+- Postal code / zip code datasets
+- Province/district boundary GeoJSON files
+- Urdu-language city name transliterations (planned for a future release — contributions welcome)
 ---
+ 
 If this package is useful to you, consider starring the repo on GitHub — it helps others discover it.
