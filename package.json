@@ -1,6 +1,6 @@
 {
   "name": "all-pakistan-cities-list",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Comprehensive, corrected list of 279 Pakistani cities by province — Punjab, Sindh, KPK (incl. former FATA), Balochistan, Azad Jammu & Kashmir, Gilgit-Baltistan, and Islamabad. Includes JSON data, helper functions, and an HTML dropdown.",
   "main": "index.js",
   "types": "index.d.ts",
