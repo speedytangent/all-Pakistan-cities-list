@@ -1,0 +1,54 @@
+{
+  "name": "all-pakistan-cities-list",
+  "version": "1.0.0",
+  "description": "Comprehensive, corrected list of 279 Pakistani cities by province — Punjab, Sindh, KPK (incl. former FATA), Balochistan, Azad Jammu & Kashmir, Gilgit-Baltistan, and Islamabad. Includes JSON data, helper functions, and an HTML dropdown.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "data/"
+  ],
+  "scripts": {
+    "test": "node -e \"const c=require('./index.js'); console.assert(c.getAllCities().length===c.raw.total_cities, 'city count mismatch'); console.log('OK:', c.raw.total_cities, 'cities');\""
+  },
+  "keywords": [
+    "pakistan",
+    "pakistan-cities",
+    "cities",
+    "cities-list",
+    "punjab",
+    "sindh",
+    "kpk",
+    "khyber-pakhtunkhwa",
+    "balochistan",
+    "azad-kashmir",
+    "azad-jammu-kashmir",
+    "gilgit-baltistan",
+    "islamabad",
+    "fata",
+    "location",
+    "location-picker",
+    "dropdown",
+    "select",
+    "autocomplete",
+    "json",
+    "geo",
+    "geodata"
+  ],
+  "license": "CC0-1.0",
+  "author": {
+    "name": "Atta Ur Rahman"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/speedytangent/all-Pakistan-cities-list.git"
+  },
+  "bugs": {
+    "url": "https://github.com/speedytangent/all-Pakistan-cities-list/issues"
+  },
+  "homepage": "https://github.com/speedytangent/all-Pakistan-cities-list#readme",
+  "engines": {
+    "node": ">=12"
+  }
+}
