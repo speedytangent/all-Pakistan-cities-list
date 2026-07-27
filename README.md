@@ -1,2 +1,4 @@
-# all-Pakistan-cities-list
-A comprehensive, production-ready HTML &lt;select> dropdown listing 279 cities and towns across all administrative regions of Pakistan — Punjab, Sindh, Khyber Pakhtunkhwa (including merged former FATA districts), Balochistan, Azad Jammu &amp; Kashmir, Gilgit-Baltistan, and the Islamabad Capital Territory.
+# All-Pakistan-cities-list
+A comprehensive, production-ready HTML &lt;select> dropdown listing 279 cities and towns across all administrative regions of Pakistan — Punjab, Sindh, Khyber Pakhtunkhwa (including merged former FATA districts), Balochistan, Azad Jammu &amp; Kashmir, Gilgit-Baltistan, and the Islamabad Capital Territory. 
+
+Cities are grouped using semantic &lt;optgroup> elements for accessibility and native browser rendering, with corrected spellings and disambiguated duplicate town names (e.g., the three Jalalpur towns labeled by district). Designed as a drop-in, standards-compliant location picker for forms, e-commerce checkouts, delivery/CRM apps, and government or civic registration systems targeting a Pakistani audience.
